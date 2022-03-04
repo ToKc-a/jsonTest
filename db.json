@@ -1,15 +1,15 @@
 [
-{
-"id": 1  
-"name": "Jamie’s Italian"
-"address": "Москва, ул. Охотный Ряд, 2"
-"lat": "55.75808501401081"
-"lng": "37.61758012874539"
-"rating": 4.5
-"reviews": 1688
-"openUntil": "00:00"
-}
-{
+  {
+    "id": 1  
+    "name": "Jamie’s Italian"
+    "address": "Москва, ул. Охотный Ряд, 2"
+    "lat": "55.75808501401081"
+    "lng": "37.61758012874539"
+    "rating": 4.5
+    "reviews": 1688
+    "openUntil": "00:00"
+  },
+  {
 "id": 2
 "name": "Wine and Crab"
 "address": "Москва, Никольская ул., 19-21, корпус 1"
@@ -18,7 +18,7 @@
 "rating": 4.7
 "reviews": 1418
 "openUntil": "00:00"
-}
+},
 {
 "id": 3
 "name": "Разведка"
@@ -38,7 +38,7 @@
 "rating": 4.5
 "reviews": 958
 "openUntil": "23:00"
-}
+},
 {
 "id": 5
 "name": "Макдоналдс"
