@@ -1,52 +1,172 @@
-[
-  {
-    "id": 1,
-    "name": "Jamie’s Italian",
-    "address": "Москва, ул. Охотный Ряд, 2",
-    "lat": 55.75808501401081,
-    "lng": 37.61758012874539,
-    "rating": 4.5,
-    "reviews": 1688,
-    "openUntil": "00:00"
-  },
-  {
-    "id": 2,
-    "name": "Wine and Crab",
-    "address": "Москва, Никольская ул., 19-21, корпус 1",
-    "lat": 55.75858608096409,
-    "lng": 37.62411398982826,
-    "rating": 4.7,
-    "reviews": 1418,
-    "openUntil": "00:00"
-  },
-  {
-    "id": 3,
-    "name": "Разведка",
-    "address": "Москва, Новая пл., 10",
-    "lat": 55.758083924189954,
-    "lng": 37.627396284514596,
-    "rating": 4.6,
-    "reviews": 1638,
-    "openUntil": "00:00"
-  },
-  {
-    "id": 4,
-    "name": "Реберная №1",
-    "address": "Москва, Театральная пл., 5 строение 2",
-    "lat": 55.75724244547091,
-    "lng": 37.6209957413007,
-    "rating": 4.5,
-    "reviews": 958,
-    "openUntil": "23:00"
-  },
-  {
-    "id": 5,
-    "name": "Макдоналдс",
-    "address": "Москва, Манежная пл., 1, строение 2",
-    "lat": 55.75587037234875,
-    "lng": 37.61516451926828,
-    "rating": 4.3,
-    "reviews": 9390,
-    "openUntil": "23:00"
-  }
-]
+{
+  "caterings": [
+    {
+      "id": 1,
+      "name": " Jamie's Italian",
+      "image": " https://lh3.googleusercontent.com/proxy/bI-mtsmUJ1Q9D1XKdU05KB4py_cBcVPzeF1wGbjlevYjBVxOKjlOMkZEFq-rnd1jNf1KLexhpZ_3wS73JY1P-Itj7KiCK194pQPnSCZXiMbwd41CsHbqcrxlK6d8OGe7qoal-BVnCRLbT_2K0lpjK_XBWn8-DK8=w408-h272-k-no",
+      "rating": 3.2,
+      "reviewsCount": 5,
+      "opened": false,
+      "address": {
+        "city": "Москва",
+        "street": "Охотный ряд",
+        "building": "2",
+        "section": null,
+        "flour": null,
+        "apartments": null
+      },
+      "free_tables": true,
+      "latitude": "46.485436689",
+      "longitude": "30.736212726",
+      "workTime": [
+        {
+          "day": "Пн",
+          "day_code": "Monday",
+          "open": "11:00",
+          "close": "23:00"
+        },
+        {
+          "day": "Вт",
+          "day_code": "Tuesday",
+          "open": "11:00",
+          "close": "23:00"
+        },
+        {
+          "day": "Ср",
+          "day_code": "Wednesday",
+          "open": "11:00",
+          "close": "23:00"
+        },
+        {
+          "day": "Чт",
+          "day_code": "Thursday",
+          "open": "11:00",
+          "close": "23:00"
+        },
+        {
+          "day": "Пт",
+          "day_code": "Friday",
+          "open": "11:00",
+          "close": "23:00"
+        },
+        {
+          "day": "Сб",
+          "day_code": "Saturday",
+          "open": "11:00",
+          "close": "23:00"
+        },
+        {
+          "day": "Вс",
+          "day_code": "Sunday",
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "cuisines": [
+        {
+          "id": 52,
+          "name": "украинская",
+          "description": null
+        }
+      ],
+      "subscription_plan": "standart",
+      "average_check_min": "150.00",
+      "average_check_max": "250.00",
+      "premium_logo": null,
+      "preorder_deposit": 0,
+      "delivery_radius": "10",
+      "available_delivery": 0,
+      "available_reserve": 1,
+      "available_pickup": 1,
+      "available_go_and_eat": 1,
+      "available_preorder": 1,
+      "min_preorder_percent": 30,
+      "cancel_reserve_days": 3,
+      "deny_reserve_hall": true
+    },
+    {
+      "id": 2,
+      "name": "Гранд Кафе Dr. Живаго",
+      "image": "https://lh5.googleusercontent.com/p/AF1QipNmBQZIbrhFezNdTjPhz7osDc3yH1KQNL3rd7Bk=w408-h272-k-no",
+      "rating": 3.2,
+      "reviewsCount": 5,
+      "opened": false,
+      "address": {
+        "city": "Москва",
+        "street": "улица Моховая",
+        "building": "15с1",
+        "section": null,
+        "flour": null,
+        "apartments": null
+      },
+      "free_tables": true,
+      "latitude": "46.485436689",
+      "longitude": "30.736212726",
+      "workTime": [
+        {
+          "day": "Пн",
+          "day_code": "Monday",
+          "open": "11:00",
+          "close": "23:00"
+        },
+        {
+          "day": "Вт",
+          "day_code": "Tuesday",
+          "open": "11:00",
+          "close": "23:00"
+        },
+        {
+          "day": "Ср",
+          "day_code": "Wednesday",
+          "open": "11:00",
+          "close": "23:00"
+        },
+        {
+          "day": "Чт",
+          "day_code": "Thursday",
+          "open": "11:00",
+          "close": "23:00"
+        },
+        {
+          "day": "Пт",
+          "day_code": "Friday",
+          "open": "11:00",
+          "close": "23:00"
+        },
+        {
+          "day": "Сб",
+          "day_code": "Saturday",
+          "open": "11:00",
+          "close": "23:00"
+        },
+        {
+          "day": "Вс",
+          "day_code": "Sunday",
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "cuisines": [
+        {
+          "id": 52,
+          "name": "украинская",
+          "description": null
+        }
+      ],
+      "subscription_plan": "standart",
+      "average_check_min": "150.00",
+      "average_check_max": "250.00",
+      "premium_logo": null,
+      "preorder_deposit": 0,
+      "delivery_radius": "10",
+      "available_delivery": 0,
+      "available_reserve": 1,
+      "available_pickup": 1,
+      "available_go_and_eat": 1,
+      "available_preorder": 1,
+      "min_preorder_percent": 30,
+      "cancel_reserve_days": 3,
+      "deny_reserve_hall": true
+    }
+  ]
+}
